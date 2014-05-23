@@ -1,5 +1,8 @@
 ## CodeBook
-This defines the variables used in the calculation of the tidy data set in the run_analysis.r script.  Details of the raw data set can be found in the file features.txt in the downloaded file.  The are 68 columns.  Columns 1 and 2 are factors (subject and activity) and 3-68 are measurements (measurements have been normalized so they are unitless).  
+This code book lists the names of variables used in the run_analysis.r file to create a tidy data (tidyData.txt).  
+Details on the raw data sets can be found in the features.txt file in the downloaded file.  The tidy data contain
+total 68 columns. The 1st and 2nd columns ('subject' and 'activity') are factor variables, and the ramaing variables 
+in the column 3-68 are measurements which were normalized). 
 
 * subject
 * activity
